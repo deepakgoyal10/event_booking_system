@@ -6,7 +6,7 @@ const cors = require("cors");
 var bodyParser = require("body-parser");
 mongooseConnection();
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 // Middleware for parsing incoming requests with URL-encoded payloads
 // parse application/x-www-form-urlencoded
