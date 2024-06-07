@@ -37,17 +37,17 @@ To get started with the Event Booking System, follow the instructions below.
 # API Endpoints
 
 ## Event endpont
--- GET /event: Retrieve a list of all events.
--- GET /event?_id : Retrieve details of a specific event by its ID.
--- POST /event: Create a new event.
+- GET /event: Retrieve a list of all events.
+- GET /event?_id : Retrieve details of a specific event by its ID.
+- POST /event: Create a new event.
 
 ## Booking event
--- POST /booking/:event_code: Book tickets for a specific event (Require authentication).
--- GET /booking/my-booking: Fetch all bookings of user (Require authentication).
+- POST /booking/:event_code: Book tickets for a specific event (Require authentication).
+- GET /booking/my-booking: Fetch all bookings of user (Require authentication).
 
 ## Authetication
--- POST /auth/register: Resgister a new user {email, password, username}
--- POST /auth/login: Login user {email, password}
+- POST /auth/register: Resgister a new user {email, password, username}
+- POST /auth/login: Login user {email, password}
 
 
 
